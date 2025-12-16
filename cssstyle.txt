@@ -1,0 +1,170 @@
+
+--primary-color: #3E2513; /* Tumši brūna */
+--secondary-color: #F3E3D8; /* Gaiši smilškrāsa */
+--accent-color: #A0522D; /* Piemērs akcentkrāsai funkcionalitātei */
+--text-color: #333;
+--font-heading: sans-serif; /* Moderns, labi salasāms sans-serif */
+--font-body: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Ērts lasīšanai, profesionāls */
+}
+
+/* --- Vispārīgie Stili --- */
+body {
+font-family: var(--font-body);
+line-height: 1.6;
+margin: 0;
+padding: 0;
+background-color: var(--secondary-color);
+color: var(--text-color);
+}
+
+h1, h2, h3, h4 {
+font-family: var(--font-heading);
+color: var(--primary-color);
+}
+
+.centered-heading {
+text-align: center;
+margin-bottom: 20px;
+}
+
+/* --- Galvene (Header) un Navigācija --- */
+header {
+background-color: var(--primary-color);
+color: white;
+padding: 15px 5%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+font-size: 1.8em;
+font-weight: bold;
+}
+
+nav ul {
+list-style: none;
+padding: 0;
+margin: 0;
+display: flex;
+}
+
+nav ul li a {
+color: white;
+text-decoration: none;
+padding: 10px 15px;
+display: block;
+border-radius: 5px;
+transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* --- Sākumlapa (Hero) --- */
+.hero-section {
+padding: 60px 5%;
+text-align: center;
+background-color: white;
+}
+
+.hero-section h1 {
+font-size: 3em;
+margin-bottom: 5px;
+}
+
+.hero-section h2 {
+font-size: 1.8em;
+margin-top: 0;
+color: var(--accent-color);
+}
+
+/* --- Attēlu Stili (Vienots stils, apaļas formas) --- */
+.hero-image, .problem-image, .solution-image {
+max-width: 90%;
+height: auto;
+margin: 30px auto;
+display: block;
+border-radius: 15px; /* Apaļas formas draudzīgumam */
+box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* --- Aicinājuma Poga (CTA) --- */
+.cta-button {
+display: inline-block;
+background-color: var(--accent-color);
+color: white;
+padding: 15px 30px;
+text-decoration: none;
+border-radius: 50px;
+font-weight: bold;
+font-size: 1.1em;
+transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+background-color: var(--primary-color);
+}
+
+/* --- Satura Sadaļa (Problem/Solution/Features) --- */
+.content-section {
+padding: 40px 10%;
+background-color: white;
+margin: 30px auto;
+max-width: 1000px;
+border-radius: 10px;
+box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.highlight-text {
+font-style: italic;
+color: var(--accent-color);
+border-left: 4px solid var(--accent-color);
+padding-left: 15px;
+}
+
+/* --- Risinājumu Tīkls (features-grid) --- */
+.features-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+gap: 25px;
+margin-top: 30px;
+text-align: center;
+}
+
+.feature-box {
+background-color: var(--secondary-color);
+padding: 20px;
+border-radius: 10px;
+transition: transform 0.3s;
+}
+
+.feature-box:hover {
+transform: translateY(-5px);
+}
+
+/* --- Funkciju Saraksts (function-list) --- */
+.function-list .function-item {
+padding: 15px 0;
+border-bottom: 1px solid #eee;
+}
+
+.function-list .function-item:last-child {
+border-bottom: none;
+}
+
+.function-list h4 {
+margin: 0;
+font-size: 1.2em;
+}
+
+/* --- Kājene (Footer) --- */
+footer {
+background-color: var(--primary-color);
+color: white;
+text-align: center;
+padding: 15px 5%;
+margin-top: 40px;
+}

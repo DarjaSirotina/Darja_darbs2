@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Problēma - LearnTrack</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+</header>
+
+<main class="content-section">
+<h2 class="centered-heading">Problēma, ko risina LearnTrack</h2>
+<h3>Izaicinājumi Mūsdienu Skolēniem</h3>
+
+<img src="images/stresains_students.jpg" alt="Skolēns, kas saskaras ar stresu un informācijas haosu" class="problem-image">
+
+[span_11](start_span)<p>Skolēni un studenti ikdienā saskaras ar **informācijas haosu** – uzdevumi tiek izziņoti e-klasē, materiāli nosūtīti pa e-pastu, termiņi pieminēti Messenger grupās, bet mācību prezentācijas glabājas Google Drive[span_11](end_span).</p>
+[span_12](start_span)<p class="highlight-text">Šī informācijas izkliedētība rada stresu, kavē mācību efektivitāti un palielina risku kaut ko palaist garām[span_12](end_span).</p>
+
+</main>
+
+<footer>
+</footer>
+</body>
+</html>
